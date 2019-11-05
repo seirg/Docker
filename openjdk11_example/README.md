@@ -8,8 +8,11 @@ docker run image_id
 
 ## Check Java Version
 docker run -it image_id
+
 #and inside the server:
+
 cat /etc/issue
+
 java -version
 
 
