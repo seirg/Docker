@@ -3,4 +3,13 @@ docker build .
 
 docker images
 
-docker run image_id
+docker run image_id 
+==> and see the message: "Hello World!"
+
+## Check Java Version
+docker run -it image_id
+#and inside the server:
+cat /etc/issue
+java -version
+
+
